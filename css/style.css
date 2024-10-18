@@ -1,0 +1,48 @@
+/* styling for the <body> */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+/* styling for the <p>'s */
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+/* styling for the text within the <form> input */
+input[type=text] {
+    font-size: 16px;
+
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    background-color: black;
+    color: white;
+}
+
+/* styling for <form> button */
+button {
+    font-size: 16px;
+
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+    background-color: #444;
+    color: white;
+}
